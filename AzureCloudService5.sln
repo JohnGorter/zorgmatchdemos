@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCloudService5", "AzureCloudService5.ccproj", "{5A455ADD-593B-49F4-836C-FD1DC08F8BD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{9226B90B-0143-4757-829D-2B0D141306A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole1", "WorkerRole1\WorkerRole1.csproj", "{28223881-A507-416F-9AC1-A80BCC12C733}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A455ADD-593B-49F4-836C-FD1DC08F8BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A455ADD-593B-49F4-836C-FD1DC08F8BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A455ADD-593B-49F4-836C-FD1DC08F8BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A455ADD-593B-49F4-836C-FD1DC08F8BD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9226B90B-0143-4757-829D-2B0D141306A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9226B90B-0143-4757-829D-2B0D141306A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9226B90B-0143-4757-829D-2B0D141306A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9226B90B-0143-4757-829D-2B0D141306A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28223881-A507-416F-9AC1-A80BCC12C733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28223881-A507-416F-9AC1-A80BCC12C733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28223881-A507-416F-9AC1-A80BCC12C733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28223881-A507-416F-9AC1-A80BCC12C733}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F778969E-708F-4F2A-A8B7-64ADD9D259FA}
+	EndGlobalSection
+EndGlobal
